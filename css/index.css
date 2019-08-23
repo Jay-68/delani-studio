@@ -34,14 +34,21 @@ h2 {
   color: white;
 }
 
+#portfolio {
+  width: 75%;
+  margin: auto;
+}
+
 #contacts {
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-size: cover;
   color: white;
 }
-#contacts input{
-  border:solid white 1px;
+
+#contacts input, #contacts textarea {
+  background-color: transparent;
 }
+
 #footer h6 {
   font-size: 15px;
   font-weight: bolder;
