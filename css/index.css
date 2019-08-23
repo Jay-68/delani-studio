@@ -49,6 +49,10 @@ h2 {
   background-color: transparent;
 }
 
+#message, #fName, #mail {
+  color: white;
+}
+
 #footer h6 {
   font-size: 15px;
   font-weight: bolder;
