@@ -13,12 +13,24 @@
   padding-top: 160px;
   padding-bottom: 25px;
 }
-#landing-page p{
+
+#landing-page p {
   font-size: 10px;
   font-weight: bold;
 }
+
+h2 {
+  font-weight: bolder;
+}
+#about-us p{
+  font-weight: normal;
+}
+
 #services {
   background-image: url(../assets/backgrounds/s_image.jpg);
+  background-size: cover;
+  padding: 90px 0px 90px 0px;
+  color: white;
 }
 
 #contacts {
