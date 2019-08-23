@@ -22,7 +22,8 @@
 h2 {
   font-weight: bolder;
 }
-#about-us p{
+
+#about-us p {
   font-weight: normal;
 }
 
@@ -35,4 +36,17 @@ h2 {
 
 #contacts {
   background-image: url(../assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  color: white;
+}
+#contacts input{
+  border:solid white 1px;
+}
+#footer h6 {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#footer img {
+  padding-bottom: 30px;
 }
