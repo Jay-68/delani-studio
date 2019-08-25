@@ -69,3 +69,7 @@ h2 {
 #footer img {
   padding-bottom: 30px;
 }
+
+#footer a {
+  text-decoration: none;
+}
