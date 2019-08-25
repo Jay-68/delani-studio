@@ -38,7 +38,7 @@ h2 {
   font-weight: bold;
 }
 
-#design-hide, #dev-hide, #product-hide {
+#design-content, #dev-content, #product-content {
   display: none;
 }
 
