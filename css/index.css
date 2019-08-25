@@ -34,6 +34,14 @@ h2 {
   color: white;
 }
 
+#what-we-do h6 {
+  font-weight: bold;
+}
+
+#design-hide, #dev-hide, #product-hide {
+  display: none;
+}
+
 #portfolio {
   width: 75%;
   margin: auto;
