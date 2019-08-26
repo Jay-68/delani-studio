@@ -38,3 +38,22 @@ $('#image8').hover(function () {
 
 let btn = document.getElementById("submitButton");
 
+btn.onclick = function (event) {
+  let nameValidate = document.forms["myForm"]["fName"].value;
+  if (nameValidate == "") {
+    alert("Name not entered");
+    return false;
+  }
+  let mailValidate = document.forms["myForm"]["mail"].value;
+  if (mailValidate == "") {
+    alert("Email not entered");
+    return false;
+  }
+  let messageValidate = document.forms["myForm"]["message"].value;
+  if (messageValidate == "") {
+    alert("You have no message to send");
+    return false;
+  } else {
+    alert('Dear ' + nameValidate + ', we have received your message. Thank you for reaching out to us!')
+  }
+}
