@@ -33,9 +33,11 @@ h2 {
   padding: 90px 0px 90px 0px;
   color: white;
 }
-#what-we-do{
+
+#what-we-do {
   padding-bottom: 10%;
 }
+
 #what-we-do h6 {
   font-weight: bold;
 }
@@ -52,9 +54,11 @@ h2 {
 #portfolio p {
   text-align: center;
 }
-#portfolio img{
+
+#portfolio img {
   padding-bottom: 15%;
 }
+
 .title1 {
   position: absolute;
   top: 0;
