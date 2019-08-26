@@ -33,7 +33,9 @@ h2 {
   padding: 90px 0px 90px 0px;
   color: white;
 }
-
+#what-we-do{
+  padding-bottom: 10%;
+}
 #what-we-do h6 {
   font-weight: bold;
 }
@@ -45,6 +47,76 @@ h2 {
 #portfolio {
   width: 75%;
   margin: auto;
+}
+
+#portfolio p {
+  text-align: center;
+}
+#portfolio img{
+  padding-bottom: 15%;
+}
+.title1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
+}
+
+.title2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
+}
+
+.title3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
+}
+
+.title4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
+}
+
+.title5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
+}
+
+.title6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
+}
+
+.title7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
+}
+
+.title8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  color: white;
 }
 
 #contacts {

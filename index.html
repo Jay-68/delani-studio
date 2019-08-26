@@ -19,7 +19,7 @@
     <p>
       AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
     </p>
-    <img src="assets/mouse_click.png" alt="mouse click icon">
+    <img src="assets/mouse_click.png" alt="mouse click icon" id="mouse">
   </div>
   <div id="about-us" class="text-center pt-5 pb-5">
     <h2>ABOUT US</h2>
@@ -90,25 +90,82 @@
       </div>
     </div>
   </div>
-  <div id="portfolio" class="pt-3">
+  <div id="portfolio">
     <h2 class="text-center">PORTFOLIO</h2>
     <div class="row">
-      <img src="assets/portfolio/work4.jpg" alt="black image" class="col-md-3" id="img1">
-      <img src="assets/portfolio/work3.jpg" alt="mighty ontario image" class="col-md-3">
-      <img src="assets/portfolio/work2.jpg" alt="orange image" class="col-md-3">
-      <img src="assets/portfolio/work1.jpg" alt="brave image" class="col-md-3">
+      <div class="col-md-3 col-sm-3" id="image1">
+        <div id="hover-content">
+          <img src="assets/portfolio/work4.jpg" alt="work4" class="img-fluid">
+          <div class="title1">
+            <p >PROJECT FOUR</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3" id="image2">
+        <div id="hover-content" class="view overlay">
+          <img src="assets/portfolio/work3.jpg" alt="work3" class="img-fluid ">
+            <div class="title2">
+              <p>PROJECT THREE</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3" id="image3">
+        <div id="hover-content" class="view overlay">
+          <img src="assets/portfolio/work2.jpg" alt="work2" class="img-fluid ">
+            <div class="title3">
+              <p></p>PROJECT TWO</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3" id="image4">
+        <div id="hover-content" class="view overlay">
+          <img src="assets/portfolio/work1.jpg" alt="work1" class="img-fluid ">
+            <div class="title4">
+              <p>PROJECT ONE</p>
+            </div>
+        </div>
+      </div>
     </div>
-    <div class="row pt-2 pb-5">
-      <img src="assets/portfolio/work5.jpg" alt="have a good day image" class="col-md-3">
-      <img src="assets/portfolio/work6.jpg"" alt=" tweaks image" class="col-md-3">
-      <img src="assets/portfolio/work7.jpg" alt="burned logo image" class="col-md-3">
-      <img src="assets/portfolio/work8.jpg" alt="bailey wonger image" class="col-md-3">
+    <div class="row">
+      <div class="col-md-3" id="image5">
+        <div id="hover-content" class="view overlay">
+          <img src="assets/portfolio/work5.jpg" alt="" class="img-fluid ">
+            <div class="title5">
+              <p>PROJECT FIVE</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="image6">
+        <div id="hover-content" class="view overlay">
+          <img src="assets/portfolio/work6.jpg" alt="" class="img-fluid ">
+            <div class="title6">
+              <p>PROJECT SIX</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="image7">
+        <div id="hover-content" class="view overlay">
+          <img src="assets/portfolio/work7.jpg" alt="" class="img-fluid ">
+            <div class="title7">
+              <p>PROJECT SEVEN</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="image8">
+        <div id="hover-content" class="view overlay">
+          <img src="assets/portfolio/work8.jpg" alt="" class="img-fluid ">
+            <div class="title8">
+              <p>PROJECT EIGHT</p>
+            </div>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
   <div id="contacts" class="pb-5">
     <div>
       <h2 class="pt-5 pb-5 text-center">CONTACT US</h2>
-      <form class="row">
+      <form class="row" name="myForm">
         <div class="col-md-4 pb-3 offset-md-2">
           <input type="text" placeholder="Enter Name" id="fName" class="form-control" required>
         </div>
@@ -118,7 +175,7 @@
         <div class="col-md-8 offset-md-2">
           <textarea id="message" placeholder="Your message here..." rows="10" class="form-control" required></textarea>
         </div>
-        <button type="submit" class="btn btn-success offset-md-9 offset-sm-2 mt-2">SUBMIT</button>
+        <button type="submit" class="btn btn-success offset-md-9 offset-sm-2 mt-2" id="submitButton">SUBMIT</button>
       </form>
     </div>
   </div>
